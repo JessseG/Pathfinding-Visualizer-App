@@ -1,0 +1,59 @@
+.node {
+  width: 15px;
+  height: 15px;
+  border: 1px solid black;
+  background-color: rgb(158, 158, 158);
+  cursor: pointer;
+}
+
+.node-start {
+  background-color: crimson;
+  /* border: 0.2px solid crimson; */
+  /* border-radius: 0.3vh; */
+}
+
+.node-end {
+  background-color: rgb(29, 139, 78);
+  /* border: 0.2px solid rgb(29, 139, 78); */
+  /* border-radius: 0.3vh; */
+}
+
+.node-wall {
+  background-color: rgb(53, 53, 53);
+}
+
+.node-visited {
+  background-color: rgb(0, 0, 0);
+}
+
+.node-shortPath {
+  background-color: rgb(255, 208, 0);
+  /* border: 0.2px solid rgb(255, 208, 0); */
+}
+
+/* .node {
+  width: 2.2vh;
+  height: 2.2vh;
+  border: 1px solid black;
+  background-color: rgb(179, 255, 255);
+}
+
+.node-start {
+  background-color: crimson;
+}
+
+.node-end {
+  background-color: rgb(29, 139, 78);
+}
+
+.node-wall {
+  background-color: rgb(83, 83, 83);
+}
+
+.node-visited {
+  background-color: orange;
+}
+
+.node-shortPath {
+  background-color: rgb(179, 47, 255);
+} */

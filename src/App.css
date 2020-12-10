@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+h1 {
+  font-size: 2.5em;
+  font-weight: bolder;
+  /* border: 1px solid red; */
+  margin-top: 2vh;
+  margin-bottom: 0;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
