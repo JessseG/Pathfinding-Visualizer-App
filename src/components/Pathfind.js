@@ -8,11 +8,11 @@ import "./Pathfind.css";
 // const X = 160;
 // const Y = 100;
 
-// const X = 80;
-// const Y = 50;
+const X = 100;
+const Y = 50;
 
-const X = 40; // columns
-const Y = 25; // rows
+// const X = 40; // columns
+// const Y = 25; // rows
 
 const startX = 3;
 const startY = Math.floor(Math.floor(Y) / 2);
@@ -112,9 +112,9 @@ const Pathfind = () => {
     this.isStart = this.x === startX && this.y === startY;
     this.isEnd = this.x === endX && this.y === endY;
     this.isWall = false;
-    // if (Math.random(1) < 0.21) {
-    //   this.isWall = true;
-    // }
+    if (Math.random(1) < 0.35) {
+      this.isWall = true;
+    }
   }
 
   const createSpots = (grid) => {
@@ -312,10 +312,10 @@ const Pathfind = () => {
           //   "border: 1px solid white";
           // console.log(node);
         }
-      }, i * 2);
+      }, i * 5);
       // x++;
     }
-    setTimeout(() => drawDijkstraPath(), i * 2);
+    setTimeout(() => drawDijkstraPath(), i * 5);
   }
 
   function drawDijkstraPath() {
@@ -385,6 +385,7 @@ const Pathfind = () => {
           Reset
         </button>
         <div id="grid">{outputGrid}</div>
+        {/* <DepthFirst /> */}
       </div>
     </div>
   );
