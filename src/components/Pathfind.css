@@ -11,10 +11,37 @@
   margin: 0 auto;
 }
 
+.app-body {
+  /* background: grey; */
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: bolder;
+  /* border: 1px solid red; */
+  margin-top: 2vh;
+  margin-bottom: 0;
+}
+
+#randomize-Btn {
+  margin: auto 1vh;
+  margin-top: 0;
+  margin-bottom: 1.5vh;
+  padding: 1vh 1.5vh;
+  font-size: 2.2vh;
+  font-style: ubuntu;
+  background: rgb(68, 68, 68);
+  color: rgb(255, 255, 255);
+  /* border: black solid 0.1vh; */
+  border-radius: 0.3vh;
+  outline: none;
+  cursor: pointer;
+}
+
 #visualize-Btn {
   margin: auto 1vh;
   margin-top: 0;
-  margin-bottom: 1vh;
+  margin-bottom: 1.5vh;
   /* height: 5vh; */
   /* width: 10vh; */
   padding: 1vh 2vh;
@@ -31,7 +58,7 @@
 #reset-Btn {
   margin: auto 1vh;
   margin-top: 0;
-  margin-bottom: 1vh;
+  margin-bottom: 1.5vh;
   padding: 1vh 2vh;
   font-size: 2.2vh;
   font-style: ubuntu;
@@ -43,6 +70,61 @@
   cursor: pointer;
 }
 
+#clear-Btn {
+  margin: auto 1vh;
+  margin-top: 0;
+  margin-bottom: 1.5vh;
+  padding: 1vh 2vh;
+  font-size: 2.2vh;
+  font-style: ubuntu;
+  background: rgb(255, 217, 0);
+  color: rgb(0, 0, 0);
+  /* border: black solid 0.1vh; */
+  border-radius: 0.3vh;
+  outline: none;
+  cursor: pointer;
+}
+
+/* #speed-knob {
+  margin: -18px 1vh;
+  zoom: 1.5;
+  display: inline-block;
+} */
+
 .rowWrap {
   display: flex;
+}
+
+.styledKnob {
+  display: inline-block;
+  margin-top: -13px;
+  margin-left: 2vh;
+  /* margin-right: 2vh; */
+  /* margin-bottom: -160px; */
+  /* border: solid red 1px; */
+  vertical-align: -2.4vh;
+}
+
+.slider {
+  margin-left: 2vh;
+}
+
+/* .styledKnob circle,
+.styledKnob path {
+  fill: #5ae4fc;
+  opacity: 0.4;
+  transition: opacity 100ms, color 100ms ease-in-out;
+}
+
+.styledKnob:hover circle,
+.styledKnob:hover path,
+.styledKnob:focus circle,
+.styledKnob:focus path {
+  fill: #ffbe0a;
+  opacity: 1;
+  transition: opacity 450ms, color 450ms ease-in-out;
+} */
+
+.knob-value {
+  font-size: 14px;
 }

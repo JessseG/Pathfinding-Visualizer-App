@@ -1,7 +1,7 @@
 .node {
-  width: 11px;
-  height: 11px;
-  border: 1px solid black;
+  width: 15px;
+  height: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.568);
   background-color: rgb(158, 158, 158);
   cursor: pointer;
 }
